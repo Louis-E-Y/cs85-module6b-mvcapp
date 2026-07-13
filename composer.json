@@ -1,0 +1,16 @@
+{
+    "name": "louisyounan/module6a-mcv-project",
+    "description": "CS85 module 6a MCV Project",
+    "autoload": {
+        "psr-4": {
+            "Louisyounan\\Module6aMcvProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Louis Younan",
+            "email": "e.leckdich@gmail.com"
+        }
+    ],
+    "require": {}
+}
