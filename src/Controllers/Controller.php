@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Controllers;
+
+use App\Models\Song;
+
 class SongController {
 
     public function showSong() {
@@ -20,7 +24,7 @@ class SongController {
         }
 
         // 1. Create/load the model
-        $song = new Song($title, $genre, $artist, $duration, $releaseYear, $rating);
+        $song = new App\Models\Song($title, $genre, $artist, $duration, $releaseYear, $rating);
 
         // 2. Send the data to the view
         include "../views/song.php";
